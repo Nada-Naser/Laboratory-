@@ -1,0 +1,22 @@
+E:\vs projects\lab MS\lab MS\bin\Debug\lab MS.exe.config
+E:\vs projects\lab MS\lab MS\bin\Debug\lab MS.exe
+E:\vs projects\lab MS\lab MS\bin\Debug\lab MS.pdb
+E:\vs projects\lab MS\lab MS\obj\Debug\lab MS.csprojResolveAssemblyReference.cache
+E:\vs projects\lab MS\lab MS\obj\Debug\lab_MS.Properties.Resources.resources
+E:\vs projects\lab MS\lab MS\obj\Debug\lab MS.csproj.GenerateResource.Cache
+E:\vs projects\lab MS\lab MS\obj\Debug\lab MS.exe
+E:\vs projects\lab MS\lab MS\obj\Debug\lab MS.pdb
+E:\vs projects\lab MS\lab MS\obj\Debug\lab_MS.Login.resources
+E:\vs projects\lab MS\lab MS\obj\Debug\lab_MS.Analysis.resources
+E:\vs projects\lab MS\lab MS\obj\Debug\lab_MS.Results.resources
+C:\Users\HP\Desktop\lab MS\bin\Debug\lab MS.exe.config
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab MS.exe
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab MS.pdb
+C:\Users\HP\Desktop\lab MS\bin\Debug\lab MS.exe
+C:\Users\HP\Desktop\lab MS\bin\Debug\lab MS.pdb
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab MS.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab_MS.Login.resources
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab_MS.Analysis.resources
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab_MS.Properties.Resources.resources
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab_MS.Results.resources
+C:\Users\HP\Desktop\lab MS\obj\Debug\lab MS.csproj.GenerateResource.Cache

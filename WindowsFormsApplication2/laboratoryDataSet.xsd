@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="laboratoryDataSet" targetNamespace="http://tempuri.org/laboratoryDataSet.xsd" xmlns:mstns="http://tempuri.org/laboratoryDataSet.xsd" xmlns="http://tempuri.org/laboratoryDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="laboratoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="laboratoryConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication2.Properties.Settings.GlobalReference.Default.laboratoryConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="analysiscatigoryTableAdapter" GeneratorDataComponentClassName="analysiscatigoryTableAdapter" Name="analysiscatigory" UserDataComponentName="analysiscatigoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="laboratoryConnectionString (Settings)" DbObjectName="laboratory.analysiscatigory" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `anName` FROM `analysiscatigory`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="anName" DataSetColumn="anName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="laboratoryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="laboratoryDataSet" msprop:Generator_UserDSName="laboratoryDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="analysiscatigory" msprop:Generator_TableClassName="analysiscatigoryDataTable" msprop:Generator_TableVarName="tableanalysiscatigory" msprop:Generator_TablePropName="analysiscatigory" msprop:Generator_RowDeletingName="analysiscatigoryRowDeleting" msprop:Generator_RowChangingName="analysiscatigoryRowChanging" msprop:Generator_RowEvHandlerName="analysiscatigoryRowChangeEventHandler" msprop:Generator_RowDeletedName="analysiscatigoryRowDeleted" msprop:Generator_UserTableName="analysiscatigory" msprop:Generator_RowChangedName="analysiscatigoryRowChanged" msprop:Generator_RowEvArgName="analysiscatigoryRowChangeEvent" msprop:Generator_RowClassName="analysiscatigoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="anName" msprop:Generator_ColumnVarNameInTable="columnanName" msprop:Generator_ColumnPropNameInRow="anName" msprop:Generator_ColumnPropNameInTable="anNameColumn" msprop:Generator_UserColumnName="anName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
